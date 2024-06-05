@@ -19,9 +19,8 @@ Dự án này sử dụng mô hình Long Short-Term Memory (LSTM) để tạo ca
 - **LSTM**: Để xử lý và tạo chuỗi văn bản từ các đặc trưng hình ảnh.
 - **InceptionV3**: Mô hình đã được huấn luyện trước để trích xuất đặc trưng từ hình ảnh.
 - **GLOVE**: Mô hình được sử dụng để word embedding, chuyển đổi các từ thành các vector số, giúp cải thiện chất lượng của các caption được tạo ra.
-- **Pandas, Numpy**: Xử lý và phân tích dữ liệu.
 
-## Thư vviện và công cụ
+## Thư viện và công cụ
 - **Python**: Ngôn ngữ lập trình chính.
 - **Thư viện Keras**: Để xây dựng và huấn luyện mô hình học sâu.
   - Các lớp sử dụng trong mô hình: LSTM, Embedding, Dense, Bidirectional, etc.
